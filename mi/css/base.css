@@ -1,0 +1,28 @@
+/* 设置基础样式 */
+body {
+    font-family: MiSans, MI Lan Pro, serif;
+    color: #333;
+    background-color: white;
+    min-width: 1226px;
+}
+
+/* 统一设置a的样式 */
+/* 将超链接的下划线去掉并且继承父元素的颜色 */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 中间容器的默认样式   */
+.w{
+    width: 1226px;
+    margin: 0 auto;
+}
+
+/* 清除浮动和高度塌陷 */
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,18 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: #bfa;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.5);
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+}
